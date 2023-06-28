@@ -23,16 +23,41 @@
         .header{
             display: block;
             text-align: center;
+            width: calc(100% - 32px);
+            /* width: calc(100% - 32px); */
+            box-sizing: border-box;
 
         }
         .profile{
             display: inline-block;
+            width: calc(32.5% - 32px);
+        }
+        .profile ul{
+            padding: 8px;
         }
         .hobbies{
             display: inline-block;
+            width: calc(32.5% - 32px);
         }
+        .hobbies li {
+            list-style: none;
+            display: inline-block;
+            border-right: 2px solid ;
+            padding-right: 4px;
+        }
+
         .skill{
             display: inline-block;
+            width: calc(32.5% - 32px);
+        }
+        .skill li{
+            list-style: none;
+            background-color: blue;
+            color:white;
+            margin: 4px;
+            padding: 8px;
+            text-align: center;
+            border-radius: 8px;
         }
     </style>
 </head>
