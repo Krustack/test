@@ -15,12 +15,17 @@
             background-color: red;
         }
         div{
+            box-shadow: 5px 5px 5px ;
             background-color: aquamarine;
             margin: 16px;
             padding: 16px;
             
         }
         .header{
+            border: 5px solid blueviolet;
+            /* border-style: solid;
+            border-color: blueviolet;
+            border-width: 5px; */
             display: block;
             text-align: center;
             width: calc(100% - 32px);
@@ -28,16 +33,23 @@
             box-sizing: border-box;
 
         }
+        .image{
+            width: calc(20% - 32px);
+            display: inline-block;
+        }
+        .image img{
+            width: 100%;
+        }
         .profile{
             display: inline-block;
-            width: calc(32.5% - 32px);
+            width: calc(78% - 32px);
         }
         .profile ul{
             padding: 8px;
         }
         .hobbies{
             display: inline-block;
-            width: calc(32.5% - 32px);
+            width: calc(100% - 32px);
         }
         .hobbies li {
             list-style: none;
@@ -48,16 +60,18 @@
 
         .skill{
             display: inline-block;
-            width: calc(32.5% - 32px);
+            width: calc(100% - 32px);
         }
         .skill li{
             list-style: none;
+            display: inline-block;
             background-color: blue;
             color:white;
             margin: 4px;
             padding: 8px;
             text-align: center;
             border-radius: 8px;
+            width: 100px;
         }
     </style>
 </head>
@@ -66,6 +80,9 @@
     <div class="header">
         <h1>RESUME</h1>
         <h3>Mr.Wisanu Phornchariyatham</h3>
+    </div>
+    <div class="image">
+        <img src="worker.png" alt="person-profile" />
     </div>
     <div class="profile">
         <h2>profile</h2>
